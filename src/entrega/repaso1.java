@@ -7,8 +7,8 @@ public class repaso1 {
     public static void main(String[] args) {
         Scanner readInput = new Scanner(System.in);
 
-        int numero = 0;
-        boolean continuar = true;
+        int numero;
+        boolean continuar;
 
         do {
             System.out.println("Introduzca un número dentro del rango");
@@ -22,7 +22,7 @@ public class repaso1 {
             }
 
             System.out.println("¿Desea continuar?");
-            System.out.println("True = Sí  False = No");
+            System.out.println("Sí = true  No = false");
             continuar = readInput.nextBoolean();
         }while (continuar);
         readInput.close();
