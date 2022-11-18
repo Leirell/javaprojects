@@ -7,7 +7,7 @@ public class binario1 {
         int numero;
         int binario;
         int cociente;
-        String binario2;
+        String binario2 = " ";
 
         Scanner readInput = new Scanner(System.in);
 
@@ -18,7 +18,7 @@ public class binario1 {
             binario = numero % 2;
             cociente = numero / 2;
             numero = cociente;
-            System.out.print(binario);
+            System.out.print(binario2 + binario);
 
         } while(cociente != 0);
     }
