@@ -6,17 +6,18 @@ public class metodos7 {
     public static void main(String[] args) {
         Scanner readInput = new Scanner(System.in);
 
-        int cantidadPrimos;
+        int primosPedidos;
         int numeroProbar = 0;
+        int primosSacados = 1;
 
         System.out.println("¿Cuantos numeros primos desea ver?");
-        cantidadPrimos = readInput.nextInt();
+        primosPedidos = readInput.nextInt();
 
-        for (int i = 1; i <= cantidadPrimos;){
+        while(primosSacados <= primosPedidos){
             numeroProbar++;
             if (sacarPrimos(numeroProbar)){
                 System.out.println(numeroProbar);
-                i++;
+                primosSacados++;
             }
         }
     }

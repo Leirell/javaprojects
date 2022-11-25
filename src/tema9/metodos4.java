@@ -6,12 +6,15 @@ public class metodos4 {
     public static void main(String[] args) {
         Scanner readInput = new Scanner(System.in);
 
-        int numero;
+        int numero = 1;
 
+        while (numero != 0){
         System.out.println("Introduzca un numero");
         numero = readInput.nextInt();
 
         System.out.println(sumarDigitos(numero));
+        }
+        readInput.close();
     }
 
     private static int sumarDigitos(double numeroPedido){
