@@ -10,7 +10,7 @@ public class prueba1 {
         String textoComprobar;
 
         System.out.println("Escribe un texto");
-        textoEntrada = readInput.nextLine();
+    textoEntrada = readInput.nextLine();
 
         System.out.println("Escribe un texto más pequeño");
         textoComprobar = readInput.nextLine();
