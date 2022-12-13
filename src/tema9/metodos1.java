@@ -11,13 +11,15 @@ public class metodos1 {
 
         numero = readInput.nextInt();
 
+        System.out.println(hacerFactorial(numero));
+
 
     }
-    private static int hacerFactorial (int hacerFactorial)
+    private static int hacerFactorial (int numeroFactorial)
     {
         int resultado = 1;
 
-        for (int i = 0; i < hacerFactorial; i++){
+        for (int i = 0; i < numeroFactorial; i++){
             resultado *= i;
         }
         return resultado;
