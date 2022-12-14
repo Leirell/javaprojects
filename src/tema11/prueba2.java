@@ -25,6 +25,4 @@ public class prueba2 {
             numero++;
         }
     }
-
-
 }
